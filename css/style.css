@@ -56,6 +56,9 @@ figure figcaption h2{
 figure figcaption h2::before{
     content: url(../asset/);
 }
+figure:firsr-child h2::before{
+    content: "#";
+}
 figcaption p{
     line-height: 2.5rem;
     text-align: justify;
