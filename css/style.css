@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 /* reset css */
 html{
     font-size: 62.5%;
@@ -6,7 +7,7 @@ html{
 body{
     font: 1.6rem 'Montserrat', sans-serif;
     margin: 0;
-    background-color: #fff;
+    background-color: rgb(248, 216, 190);
 }
 h1,h2,h3,h4,h5,h6,p,figure,ul,ol{
     margin: 0;
@@ -45,11 +46,15 @@ figure{
 figure img{
     display: block;
     width: 100%;
+    box-shadow: 0 0 1.0rem var(--color-default);
 }
 figure figcaption h2{
     text-align: center;
     line-height: 6.5rem;
-    font-weight: normal;
+    font-weight: 200;
+}
+figure figcaption h2::before{
+    content: url(../asset/);
 }
 figcaption p{
     line-height: 2.5rem;
