@@ -62,4 +62,6 @@ a{
 * CSS<sup>3</sup>
 * Js
 * PHP
-* Versionning
+* Versioning (GitHub)
+
+Voir la page web *[Page web](https://github.com/ryanvaugarni/projet)* 
